@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BinarySearch.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    NSArray *arry = @[@1,@4,@5,@6,@8];
+    NSLog(@"%ld",[BinarySearch binarySearchWithRecursion:arry withDes:@1]);
+    NSLog(@"%ld",[BinarySearch binarySearchNoRecursion:arry withDes:@5]);
     // Override point for customization after application launch.
     return YES;
 }

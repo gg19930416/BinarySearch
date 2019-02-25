@@ -15,6 +15,7 @@
 		2431BC5F2224210000E6B486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2431BC5E2224210000E6B486 /* main.m */; };
 		2431BC692224210000E6B486 /* BinarySearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2431BC682224210000E6B486 /* BinarySearchTests.m */; };
 		2431BC742224210000E6B486 /* BinarySearchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2431BC732224210000E6B486 /* BinarySearchUITests.m */; };
+		2431BC852224215400E6B486 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2431BC842224215400E6B486 /* BinarySearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2431BC6F2224210000E6B486 /* BinarySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2431BC732224210000E6B486 /* BinarySearchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearchUITests.m; sourceTree = "<group>"; };
 		2431BC752224210000E6B486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2431BC832224215400E6B486 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		2431BC842224215400E6B486 /* BinarySearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		2431BC4E222420FD00E6B486 /* BinarySearch */ = {
 			isa = PBXGroup;
 			children = (
+				2431BC822224212700E6B486 /* 二分查找 */,
 				2431BC4F222420FD00E6B486 /* AppDelegate.h */,
 				2431BC50222420FD00E6B486 /* AppDelegate.m */,
 				2431BC52222420FD00E6B486 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				2431BC752224210000E6B486 /* Info.plist */,
 			);
 			path = BinarySearchUITests;
+			sourceTree = "<group>";
+		};
+		2431BC822224212700E6B486 /* 二分查找 */ = {
+			isa = PBXGroup;
+			children = (
+				2431BC832224215400E6B486 /* BinarySearch.h */,
+				2431BC842224215400E6B486 /* BinarySearch.m */,
+			);
+			path = "二分查找";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2431BC852224215400E6B486 /* BinarySearch.m in Sources */,
 				2431BC54222420FD00E6B486 /* ViewController.m in Sources */,
 				2431BC5F2224210000E6B486 /* main.m in Sources */,
 				2431BC51222420FD00E6B486 /* AppDelegate.m in Sources */,
